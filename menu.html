@@ -1,0 +1,66 @@
+<style>
+body {margin:0px;background:#B0E0E6;}
+html {scroll-behavior:smooth;}
+.h-flex-container {display:flex; flex-direction:row; height:100%;}
+.h-flex-container div {width:50%; position:relative;}
+.background {background-position:center; background-repeat: no-repeat; background-size:cover;max-width:100%;height:auto}
+#sec1 {background-image:url("4.jpg");}
+#sec2 {background-image:url("3.jpg");}
+#sec3 {background-image:url("2.jpg");}
+h2 {position:absolute;text-align:center;top:90%;left:50%;transform: translate(-50%,-50%);}
+p {position:absolute;top:30%;left:50%;font-size:500%;transform: translate(-50%,-50%);text-align:center;text-shadow: 2px 2px 5px red
+}
+#ula {list-style-type:upper-roman;font-size:50px;text-align:center;top:45%}
+img 
+{
+max-width:20%;height:auto;opacity: 0.4;display:block;border-radius: 20px;border: 10px solid rgb(249, 36, 36);position:absolute;top:30%;left:28%;
+}
+img:hover{opacity:1;}
+</style>
+<body>
+<div class="h-flex-container">
+<div id="sec1" class="background"></div>
+<div>
+	<p style='position:absolute;top:5%;left:50%;text-shadow: 2px 2px 5px red'></p>
+	<p>The Avengers<br>和<br>X-Men</p>
+	<h2 style='left:30%;font-size:250%'>
+	<a href="#sec2">The Avengers</a>
+	</h2>
+	<h2 style='left:70%;font-size:250%'>
+	<a href="#sec3">X-Men</a>
+	</h2>
+</div>
+</div>
+<div class="h-flex-container">
+<div>
+	<p style="position:absolute;top:5%;left:50%;text-shadow: 2px 2px 5px red">The Avengers</p>
+	<ul id="ula">
+		<td><a href="ta.html">
+			<img src="14.jpg" style='max-width:40%;height:auto;'></a></td>
+	</ul>
+	<h2 style='left:20%;font-size:250%'>
+	<a href="#sec3">X-Men</a>
+	</h2>
+	<h2 style='left:80%;font-size:250%'>
+	<a href="#sec1">Back to Top</a>
+	</h2>
+	</div>
+<div id="sec2" class="background"></div>
+</div>
+<div class="h-flex-container">
+<div id="sec3" class="background"></div>
+<div>
+	<p style="position:absolute;top:5%;left:50%;text-shadow: 2px 2px 5px red">X-Men</p>
+	<ul id="ula">
+		<td><a href="xm.html">
+			<img src="x.jpg" style='max-width:40%;height:auto;'></a></td>
+	</ul>
+	<h2 style='left:70%;font-size:250%'>
+	<a href="#sec1">Back to Top</a>
+	</h2>
+	<h2 style='left:30%;font-size:250%'>
+	<a href="#sec2">The Avengers</a>
+	</h2>
+	</div>
+</div>
+</body>
